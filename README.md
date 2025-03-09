@@ -26,7 +26,7 @@ into that over time.
 
 #### Audio Signal Processing & DSP
 - [JOSModules](https://github.com/josmithiii/JOSModules) - C++ modules in JUCE Module Format to supplement standard JUCE modules
-- [josm_faust](https://github.com/josmithiii/josm_faust) - C++ Modules for JUCE Framework based on jos functions from Faust Libraries
+- [jos_faust](https://github.com/josmithiii/jos_faust) - C++ Modules for JUCE Framework based on jos functions from Faust Libraries
 - [faust-jos](https://github.com/josmithiii/faust-jos) - Faust software initiated and maintained by JOS
 - [modalmodel](https://github.com/josmithiii/modalmodel) - Experiments in modal modeling
 - [opengl_spectrogram](https://github.com/josmithiii/opengl_spectrogram) [fork] - Using JUCE to create a 3D spectrogram drawn with OpenGL
