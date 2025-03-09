@@ -20,7 +20,9 @@ JOS repositories typically focus on:
 
 ### Main Repositories Under Development
 
-When I fork a repo, I typically create a `jos` branch first thing for my changes, merging `main`/`master` into that over time.
+Most of my repos are git forks. When I fork a repo, I typically create
+a `jos` branch first thing for my changes, merging `main`/`master`
+into that over time.
 
 #### Audio Signal Processing & DSP
 - [JOSModules](https://github.com/josmithiii/JOSModules) - C++ modules in JUCE Module Format to supplement standard JUCE modules
@@ -32,7 +34,7 @@ When I fork a repo, I typically create a `jos` branch first thing for my changes
 
 #### Machine Learning for Audio
 - [WaveNet](https://github.com/josmithiii/WaveNet) [fork] - WaveNet implementation in PyTorch with Classifier Mode
-- [WaveNetAntecessor](https://github.com/josmithiii/WaveNetAntecessor) [fork] - Implementation of Wavenet in torch
+- [WaveNetAntecessor](https://github.com/josmithiii/WaveNetAntecessor) [fork] - Implementation of Wavenet in PyTorch
 - [pytorch-wavenet](https://github.com/josmithiii/pytorch-wavenet) [fork] - An implementation of WaveNet with fast generation
 - [makemore](https://github.com/josmithiii/makemore) [fork] - Autoregressive character-level language model with Mamba implementation
 - [AttributeModelling](https://github.com/josmithiii/AttributeModelling) [fork] - Code for ML4MD paper on latent space regularization for musical attributes
