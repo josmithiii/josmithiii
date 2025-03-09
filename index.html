@@ -58,6 +58,16 @@
         .repo-description {
             color: #586069;
         }
+        .fork-label {
+            display: inline-block;
+            padding: 0 5px;
+            font-size: 0.8em;
+            font-weight: 500;
+            color: #586069;
+            background-color: #f1f8ff;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -83,23 +93,25 @@
 
     <h3>Main Repositories Under Development</h3>
 
+    When I <span class="fork-label">fork</span> a repo, I typically create a <tt>jos</tt> branch first thing for my changes, merging <tt>main</tt>/<tt>master</tt> into that over time.
+
     <h4>Audio Signal Processing &amp; DSP</h4>
     <ul class="repo-list">
         <li><a href="https://github.com/josmithiii/JOSModules" class="repo-name">JOSModules</a> - <span class="repo-description">C++ modules in JUCE Module Format to supplement standard JUCE modules</span></li>
         <li><a href="https://github.com/josmithiii/josm_faust" class="repo-name">josm_faust</a> - <span class="repo-description">C++ Modules for JUCE Framework based on jos functions from Faust Libraries</span></li>
         <li><a href="https://github.com/josmithiii/faust-jos" class="repo-name">faust-jos</a> - <span class="repo-description">Faust software initiated and maintained by JOS</span></li>
         <li><a href="https://github.com/josmithiii/modalmodel" class="repo-name">modalmodel</a> - <span class="repo-description">Experiments in modal modeling</span></li>
-        <li><a href="https://github.com/josmithiii/opengl_spectrogram" class="repo-name">opengl_spectrogram</a> - <span class="repo-description">Using JUCE to create a 3D spectrogram drawn with OpenGL</span></li>
-        <li><a href="https://github.com/josmithiii/descript-audio-codec" class="repo-name">descript-audio-codec</a> - <span class="repo-description">State-of-the-art audio codec with 90x compression factor</span></li>
+        <li><a href="https://github.com/josmithiii/opengl_spectrogram" class="repo-name">opengl_spectrogram</a> <span class="fork-label">fork</span> - <span class="repo-description">Using JUCE to create a 3D spectrogram drawn with OpenGL</span></li>
+        <li><a href="https://github.com/josmithiii/descript-audio-codec" class="repo-name">descript-audio-codec</a> <span class="fork-label">fork</span> - <span class="repo-description">State-of-the-art audio codec with 90x compression factor</span></li>
     </ul>
 
     <h4>Machine Learning for Audio</h4>
     <ul class="repo-list">
-        <li><a href="https://github.com/josmithiii/WaveNet" class="repo-name">WaveNet</a> - <span class="repo-description">WaveNet implementation in PyTorch with Classifier Mode</span></li>
-        <li><a href="https://github.com/josmithiii/WaveNetAntecessor" class="repo-name">WaveNetAntecessor</a> - <span class="repo-description">Implementation of Wavenet in torch</span></li>
-        <li><a href="https://github.com/josmithiii/pytorch-wavenet" class="repo-name">pytorch-wavenet</a> - <span class="repo-description">An implementation of WaveNet with fast generation</span></li>
-        <li><a href="https://github.com/josmithiii/makemore" class="repo-name">makemore</a> - <span class="repo-description">Autoregressive character-level language model with Mamba implementation</span></li>
-        <li><a href="https://github.com/josmithiii/AttributeModelling" class="repo-name">AttributeModelling</a> - <span class="repo-description">Code for ML4MD paper on latent space regularization for musical attributes</span></li>
+        <li><a href="https://github.com/josmithiii/WaveNet" class="repo-name">WaveNet</a> <span class="fork-label">fork</span> - <span class="repo-description">WaveNet implementation in PyTorch with Classifier Mode</span></li>
+        <li><a href="https://github.com/josmithiii/WaveNetAntecessor" class="repo-name">WaveNetAntecessor</a> <span class="fork-label">fork</span> - <span class="repo-description">Implementation of Wavenet in torch</span></li>
+        <li><a href="https://github.com/josmithiii/pytorch-wavenet" class="repo-name">pytorch-wavenet</a> <span class="fork-label">fork</span> - <span class="repo-description">An implementation of WaveNet with fast generation</span></li>
+        <li><a href="https://github.com/josmithiii/makemore" class="repo-name">makemore</a> <span class="fork-label">fork</span> - <span class="repo-description">Autoregressive character-level language model with Mamba implementation</span></li>
+        <li><a href="https://github.com/josmithiii/AttributeModelling" class="repo-name">AttributeModelling</a> <span class="fork-label">fork</span> - <span class="repo-description">Code for ML4MD paper on latent space regularization for musical attributes</span></li>
         <li><a href="https://github.com/josmithiii/dsp2seq" class="repo-name">dsp2seq</a> - <span class="repo-description">Sequence models as signal processing</span></li>
     </ul>
 
@@ -108,26 +120,22 @@
         <li><a href="https://github.com/josmithiii/ace" class="repo-name">ace</a> - <span class="repo-description">Automatic Chord Estimation</span></li>
         <li><a href="https://github.com/josmithiii/MidiPredict" class="repo-name">MidiPredict</a> - <span class="repo-description">Play a MIDI file in advance of live incoming MIDI performance</span></li>
         <li><a href="https://github.com/josmithiii/320c-starter-code" class="repo-name">320c-starter-code</a> - <span class="repo-description">Music 320c starter code</span></li>
-        <li><a href="https://github.com/josmithiii/Sporth" class="repo-name">Sporth</a> - <span class="repo-description">A small stack-based audio language</span></li>
+        <li><a href="https://github.com/josmithiii/Sporth" class="repo-name">Sporth</a> <span class="fork-label">fork</span> - <span class="repo-description">A small stack-based audio language</span></li>
     </ul>
 
     <h4>Development Tools</h4>
     <ul class="repo-list">
         <li><a href="https://github.com/josmithiii/JUCEModulesDoc" class="repo-name">JUCEModulesDoc</a> - <span class="repo-description">Doxygen-format documentation for JUCE modules</span></li>
-        <li><a href="https://github.com/josmithiii/foleys_gui_magic" class="repo-name">foleys_gui_magic</a> - <span class="repo-description">A GUI builder module for JUCE with examples</span></li>
-        <li><a href="https://github.com/josmithiii/PluginGuiMagic" class="repo-name">PluginGuiMagic</a> - <span class="repo-description">Feature fork for XYDragComponent</span></li>
-        <li><a href="https://github.com/josmithiii/juce-toys" class="repo-name">juce-toys</a> - <span class="repo-description">Debugging utilities in a JUCE Module with NatVis and LLDB customizations</span></li>
-        <li><a href="https://github.com/josmithiii/JUCEPluginTemplate" class="repo-name">JUCEPluginTemplate</a> - <span class="repo-description">Template for JUCE plugins</span></li>
+        <li><a href="https://github.com/josmithiii/foleys_gui_magic" class="repo-name">foleys_gui_magic</a> <span class="fork-label">fork</span> - <span class="repo-description">A GUI builder module for JUCE with examples</span></li>
+        <li><a href="https://github.com/josmithiii/PluginGuiMagic" class="repo-name">PluginGuiMagic</a> <span class="fork-label">fork</span> - <span class="repo-description">Feature fork for XYDragComponent</span></li>
+        <li><a href="https://github.com/josmithiii/juce-toys" class="repo-name">juce-toys</a> <span class="fork-label">fork</span> - <span class="repo-description">Debugging utilities in a JUCE Module with NatVis and LLDB customizations</span></li>
+        <li><a href="https://github.com/josmithiii/JUCEPluginTemplate" class="repo-name">JUCEPluginTemplate</a> <span class="fork-label">fork</span> - <span class="repo-description">Template for JUCE plugins</span></li>
     </ul>
 
     <h4>Scientific Computing</h4>
     <ul class="repo-list">
-        <li><a href="https://github.com/josmithiii/scipy" class="repo-name">scipy</a> - <span class="repo-description">Fork of SciPy library main repository</span></li>
+        <li><a href="https://github.com/josmithiii/scipy" class="repo-name">scipy</a> <span class="fork-label">fork</span> - <span class="repo-description">Fork of SciPy library main repository</span></li>
     </ul>
-
-    <p>This overview lists JOS repositories at <a href="https://github.com/josmithiii?tab=repositories">https://github.com/josmithiii?tab=repositories</a></p>
-
-    <p>They are generally listed in descending order of activity and/or current utility.</p>
 
     <h3>Complete Repository List</h3>
 
