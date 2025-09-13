@@ -32,7 +32,8 @@ into that over time.
 - [descript-audio-codec](https://github.com/josmithiii/descript-audio-codec) [fork] - State-of-the-art audio codec with 90x compression factor
 
 #### Machine Learning for Audio
-- [lightning-hydra-template-extended](https://github.com/josmithiii/lightning-hydra-template-extended.git) [fork] - New loss functions and architectures via Hydra config
+- [neural-spectral-modeling-template (NSMT)](https://github.com/josmithiii/neural-spectral-modeling-template.git) - Adapts LHTE to audio spectrograms and basic Synth-Matching experiments
+- [lightning-hydra-template-extended (LHTE)](https://github.com/josmithiii/lightning-hydra-template-extended.git) - Adds dataset formats, architectures, and loss functions to the LHT
 - [WaveNet](https://github.com/josmithiii/WaveNet) [fork] - WaveNet implementation in PyTorch with Classifier Mode
 - [WaveNetAntecessor](https://github.com/josmithiii/WaveNetAntecessor) [fork] - Implementation of Wavenet in PyTorch
 - [pytorch-wavenet](https://github.com/josmithiii/pytorch-wavenet) [fork] - An implementation of WaveNet with fast generation
