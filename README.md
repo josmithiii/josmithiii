@@ -24,13 +24,6 @@ Most of my repos are git forks. When I fork a repo, I typically create
 a `jos` branch first thing for my changes, merging `main`/`master`
 into that over time.
 
-#### Audio Signal Processing & DSP
-- [JOSModules](https://github.com/josmithiii/JOSModules) - C++ modules in JUCE Module Format to supplement standard JUCE modules
-- [jos_faust](https://github.com/josmithiii/jos_faust) - C++ Modules for JUCE Framework based on jos functions from Faust Libraries
-- [modalmodel](https://github.com/josmithiii/modalmodel) - Experiments in modal modeling
-- [opengl_spectrogram](https://github.com/josmithiii/opengl_spectrogram) [fork] - Using JUCE to create a 3D spectrogram drawn with OpenGL
-- [descript-audio-codec](https://github.com/josmithiii/descript-audio-codec) [fork] - State-of-the-art audio codec with 90x compression factor
-
 #### Machine Learning for Audio
 - [neural-spectral-modeling-template (NSMT)](https://github.com/josmithiii/neural-spectral-modeling-template.git) - Adapts LHTE to audio spectrograms and basic Synth-Matching experiments
 - [lightning-hydra-template-extended (LHTE)](https://github.com/josmithiii/lightning-hydra-template-extended.git) - Adds dataset formats, architectures, and loss functions to the LHT
@@ -40,6 +33,13 @@ into that over time.
 - [makemore](https://github.com/josmithiii/makemore) [fork] - Autoregressive character-level language model with Mamba implementation
 - [AttributeModelling](https://github.com/josmithiii/AttributeModelling) [fork] - Code for ML4MD paper on latent space regularization for musical attributes
 - [dsp2seq](https://github.com/josmithiii/dsp2seq) - Sequence models as signal processing
+
+#### Audio Signal Processing & DSP
+- [JOSModules](https://github.com/josmithiii/JOSModules) - C++ modules in JUCE Module Format to supplement standard JUCE modules
+- [jos_faust](https://github.com/josmithiii/jos_faust) - C++ Modules for JUCE Framework based on jos functions from Faust Libraries
+- [modalmodel](https://github.com/josmithiii/modalmodel) - Experiments in modal modeling
+- [opengl_spectrogram](https://github.com/josmithiii/opengl_spectrogram) [fork] - Using JUCE to create a 3D spectrogram drawn with OpenGL
+- [descript-audio-codec](https://github.com/josmithiii/descript-audio-codec) [fork] - State-of-the-art audio codec with 90x compression factor
 
 #### Music Technology Tools
 - [ace](https://github.com/josmithiii/ace) - Automatic Chord Estimation
