@@ -1,77 +1,76 @@
-## JOS GitHub Repo Overview
+## Julius O. Smith III (JOS)
 
-### Areas of Focus
+Audio signal processing, physical modeling synthesis, and machine
+learning for audio.
 
-JOS repositories typically focus on:
-- Audio signal processing and DSP algorithms
-- Machine learning applications for audio
-- Music technology tools and research
-- Computational acoustics
-- Physical modeling synthesis
-
-### About Me
-
-- 🔭 I'm currently working on audio signal processing and machine learning projects
-- 🌱 I'm learning advanced AI techniques and their applications in music technology
+- 🌍 [JOS Home Page](https://ccrma.stanford.edu/~jos/) — online books, papers, and courses
+- 🔭 Currently working on audio signal processing and machine-learning projects
 - 💬 Ask me about digital signal processing, AI in audio, and computational acoustics
 - 📫 Reach me through GitHub or my professional channels
-- 🌍 See the [JOS Home Page](https://ccrma.stanford.edu/~jos/) for more
 
+### Featured
 
-### Main Repositories Under Development
+- [l2hmj](https://github.com/josmithiii/l2hmj) — **LaTeX2HTML with MathJax**:
+  the publishing toolchain behind the JOS online books
+  ([Mathematics of the DFT](https://ccrma.stanford.edu/~jos/mdft/),
+  [Physical Audio Signal Processing](https://ccrma.stanford.edu/~jos/pasp/), ...).
+  Equations are rendered by MathJax instead of images, so they copy/paste
+  with their LaTeX source intact (LLM-friendly), scale cleanly, and are
+  accessible to screen readers.
+- [mcp-servers-jos](https://github.com/josmithiii/mcp-servers-jos) — MCP
+  servers, including a JUCE documentation server for Claude Code, Codex,
+  Cursor, and other MCP clients (MIT)
+- [MidiToChords](https://github.com/josmithiii/MidiToChords) — JUCE-based
+  AU/Standalone MIDI plugin that displays chord names from MIDI input (MIT)
 
-Most of my repos are git forks. When I fork a repo, I typically create
-a `jos` branch first thing for my changes, merging `main`/`master`
-into that over time.
+### Machine Learning for Audio
 
-#### Machine Learning for Audio
-- [neural-spectral-modeling-template (NSMT)](https://github.com/josmithiii/neural-spectral-modeling-template.git) - Adapts LHTE to audio spectrograms and basic Synth-Matching experiments
-- [lightning-hydra-template-extended (LHTE)](https://github.com/josmithiii/lightning-hydra-template-extended.git) - Adds dataset formats, architectures, and loss functions to the LHT
-- [WaveNet](https://github.com/josmithiii/WaveNet) [fork] - WaveNet implementation in PyTorch with Classifier Mode
-- [WaveNetAntecessor](https://github.com/josmithiii/WaveNetAntecessor) [fork] - Implementation of Wavenet in PyTorch
-- [pytorch-wavenet](https://github.com/josmithiii/pytorch-wavenet) [fork] - An implementation of WaveNet with fast generation
-- [makemore](https://github.com/josmithiii/makemore) [fork] - Autoregressive character-level language model with Mamba implementation
-- [AttributeModelling](https://github.com/josmithiii/AttributeModelling) [fork] - Code for ML4MD paper on latent space regularization for musical attributes
-- [dsp2seq](https://github.com/josmithiii/dsp2seq) - Sequence models as signal processing
+- [neural-spectral-modeling-template (NSMT)](https://github.com/josmithiii/neural-spectral-modeling-template) - Adapts LHTE to audio spectrograms and basic Synth-Matching experiments (MIT)
+- [lightning-hydra-template-extended (LHTE)](https://github.com/josmithiii/lightning-hydra-template-extended) - Adds dataset formats, architectures, and loss functions to the LHT
+- [TonicNet-PyTorch](https://github.com/josmithiii/TonicNet-PyTorch) - PyTorch reimplementation of TonicNet: polyphonic Bach chorale generation
+- [FormFinder](https://github.com/josmithiii/FormFinder) - Discover popular-music song structure (Intro/Verse/Chorus/Bridge/...)
+- [dsp2seq](https://github.com/josmithiii/dsp2seq) - Sequence models as signal processing (talk overheads)
 
-#### Audio Signal Processing & DSP
-- [JOSModules](https://github.com/josmithiii/JOSModules) - C++ modules in JUCE Module Format to supplement standard JUCE modules
-- [jos_faust](https://github.com/josmithiii/jos_faust) - C++ Modules for JUCE Framework based on jos functions from Faust Libraries
+### Audio Signal Processing & Physical Modeling
+
+- [jos_faust](https://github.com/josmithiii/jos_faust) - C++ modules for JUCE generated from jos functions in the Faust Libraries (paused experiment; a hand-optimized successor is in development)
 - [modalmodel](https://github.com/josmithiii/modalmodel) - Experiments in modal modeling
-- [opengl_spectrogram](https://github.com/josmithiii/opengl_spectrogram) [fork] - Using JUCE to create a 3D spectrogram drawn with OpenGL
-- [descript-audio-codec](https://github.com/josmithiii/descript-audio-codec) [fork] - State-of-the-art audio codec with 90x compression factor
+- [bowed-physics](https://github.com/josmithiii/bowed-physics) - Research and educational physical models of bowed strings
+- [MouthpieceSim](https://github.com/josmithiii/MouthpieceSim) - Simulation for an electronic wind-instrument mouthpiece sensor
+- [SoundInstallationSimulator](https://github.com/josmithiii/SoundInstallationSimulator) - Browser-based modular sound installation simulator
 
-#### Music Technology Tools
-- [ace](https://github.com/josmithiii/ace) - Automatic Chord Estimation
-- [MidiPredict](https://github.com/josmithiii/MidiPredict) - Play a MIDI file in advance of live incoming MIDI performance
-- [320c-starter-code](https://github.com/josmithiii/320c-starter-code) - Music 320c starter code
-- [Sporth](https://github.com/josmithiii/Sporth) [fork] - A small stack-based audio language
+### Music Apps & Plugins (JUCE)
 
-#### Development Tools
+- [MidiToChords](https://github.com/josmithiii/MidiToChords) - Chord names from MIDI input (AU/Standalone, MIT)
+- [AutoJust](https://github.com/josmithiii/AutoJust) - Master-bus adaptive Just Intonation retuner
+- [TileCraft](https://github.com/josmithiii/TileCraft) - Grid-based touch control-surface designer (research prototype)
+- [MidiPredict](https://github.com/josmithiii/MidiPredict) - Play a MIDI file slightly in advance of live incoming MIDI
+
+### Publishing & Dev Tools
+
+- [l2hmj](https://github.com/josmithiii/l2hmj) - LaTeX2HTML with MathJax (see Featured above)
+- [jos-latex](https://github.com/josmithiii/jos-latex) - Shared LaTeX infrastructure for JOS textbooks and papers
+- [docker-w](https://github.com/josmithiii/docker-w) - Docker + Claude Code + LaTeX dev environment
+- [wiki](https://github.com/josmithiii/wiki) - LLM Wiki: persistent interlinked knowledge bases built with AI agents
+- [mcp-template](https://github.com/josmithiii/mcp-template) - Barebones starting point for a new MCP server
 - [JUCEModulesDoc](https://github.com/josmithiii/JUCEModulesDoc) - Doxygen-format documentation for JUCE modules
-- [foleys_gui_magic](https://github.com/josmithiii/foleys_gui_magic) [fork] - A GUI builder module for JUCE with examples
-- [PluginGuiMagic](https://github.com/josmithiii/PluginGuiMagic) [fork] - Feature fork for XYDragComponent
-- [juce-toys](https://github.com/josmithiii/juce-toys) [fork] - Debugging utilities in a JUCE Module with NatVis and LLDB customizations
-- [JUCEPluginTemplate](https://github.com/josmithiii/JUCEPluginTemplate) [fork] - Template for JUCE plugins
 
-#### Scientific Computing
-- [scipy](https://github.com/josmithiii/scipy) [fork] - Fork of SciPy library main repository
+### Teaching
+
+- [320c-starter-code](https://github.com/josmithiii/320c-starter-code) - Music 320c starter code
+- [ai-miracle-decade-plus](https://github.com/josmithiii/ai-miracle-decade-plus) - Landing page for the AI Miracle Decade+ self-paced course
+
+### Notable Forks
+
+Many of my repos are git forks for study or contribution. When I fork a
+repo, I typically create a `jos` branch first thing for my changes,
+merging `main`/`master` into that over time.
+
+- [foleys-gui-magic](https://github.com/josmithiii/foleys-gui-magic) - A GUI builder module for JUCE (feature branch in active use)
+- [juce-toys](https://github.com/josmithiii/juce-toys) - Debugging utilities in a JUCE Module with NatVis and LLDB customizations
+- [scipy](https://github.com/josmithiii/scipy) - SciPy library main repository
+- [makemore](https://github.com/josmithiii/makemore) - Autoregressive character-level language model with Mamba implementation
 
 ### Complete Repository List
 
 See [josmithiii's GitHub repositories](https://github.com/josmithiii?tab=repositories) for the complete and up-to-date list.
-
-<!--
-**josmithiii/josmithiii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I'm currently working on ...
-- 🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
